@@ -1,6 +1,5 @@
 import "package:flutter/material.dart";
-
-import 'package:flutter/material.dart';
+import 'Drawer.dart';
 
 class Home extends StatelessWidget {
   var days = 34;
@@ -12,10 +11,10 @@ class Home extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: Text("I  $days"),
+          child: const Text("Itne dhyaan se kya dekh rha , gaand dega kya?"),
         ),
       ),
-      drawer: Drawer(),
+      drawer: MeraDrawer(),
     );
   }
 }

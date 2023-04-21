@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:project/Themes.dart';
 import 'package:project/Home.dart';
 import 'package:project/loginpage.dart';
+import 'package:project/utils/Routes.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,14 +17,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(
-          fontFamily: GoogleFonts.lato().fontFamily,
-          primaryTextTheme: GoogleFonts.latoTextTheme()),
-      darkTheme: ThemeData(brightness: Brightness.dark),
-      initialRoute: "/Home",
+      theme: MeraTheme.lighttheme(context),
+      darkTheme: MeraTheme.darktheme(context),
+      debugShowCheckedModeBanner: false,
+      initialRoute: MyRoutes.homeRoute,
       routes: {
         "/": (context) => Login(),
-        "/Home": (context) => Home(),
+        MyRoutes.homeRoute: (context) => Home(),
       },
     );
   }

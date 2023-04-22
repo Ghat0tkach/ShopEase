@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:project/Themes.dart';
-import 'package:project/Home.dart';
-import 'package:project/loginpage.dart';
+import 'package:project/pages/Home.dart';
+import 'package:project/pages/login_page.dart';
 import 'package:project/utils/Routes.dart';
 
 void main() {
   runApp(const MyApp());
 }
-
-int days = 3000;
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});

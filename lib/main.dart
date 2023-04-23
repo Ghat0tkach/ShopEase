@@ -4,6 +4,7 @@ import 'package:project/pages/Cart_page.dart';
 import 'package:project/pages/Home.dart';
 import 'package:project/pages/login_page.dart';
 import 'package:project/utils/Routes.dart';
+import 'package:velocity_x/velocity_x.dart';
 
 void main() {
   runApp(const MyApp());

@@ -1,7 +1,15 @@
-# project
+# Project
+Catalogue App
 
-A new Flutter project.
+## Preview
+[Uploading FlutterRun.webm…]()
 
+
+## To Run in Your System
+-- clone the Repo
+-- open the repo in VS CODE/ Android Studio
+-- choose your required device
+-- Type Flutter run in your terminal
 ## Getting Started
 
 This project is a starting point for a Flutter application.
